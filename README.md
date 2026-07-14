@@ -1,9 +1,7 @@
-# Two-score SGE → mechanism-labelled clinical evidence
+# Mechanism-labelled clinical evidence with finite-sample error bounds from two-channel saturation genome editing
 
-Turn two-score saturation genome editing (SGE) screens into ACMG/AMP
-functional-evidence codes (PS3 / BS3) that carry a **mechanism label**
-(protein vs RNA) and a **finite-sample error bound**.
-Please download and read the draft manuscript: **manuscript.pdf** before running this repo.
+Turn two-score saturation genome editing (SGE) screens into ACMG/AMP functional-evidence codes (PS3 / BS3) that carry a mechanism label (protein vs RNA) and a finite-sample error bound.
+The key product is the manuscript located in this repo: **manuscript.pdf**.
 
 
 
