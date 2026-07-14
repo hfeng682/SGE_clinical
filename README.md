@@ -1,7 +1,8 @@
 # Mechanism-labelled clinical evidence with finite-sample error bounds from two-channel saturation genome editing
 
+This is a repo for the Built with Claude: Life Sciences hackathon, hosted in July 2026.
 Turn two-score saturation genome editing (SGE) screens into ACMG/AMP functional-evidence codes (PS3 / BS3) that carry a mechanism label (protein vs RNA) and a finite-sample error bound.
-The key product is the manuscript located in this repo: **manuscript.pdf**.
+Please find the details of this project inside the manuscript located in this repo: **manuscript.pdf**. 
 
 
 
