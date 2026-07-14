@@ -74,17 +74,3 @@ manuscript/             MANUSCRIPT.md, figures/ (2), tables/ (11)
 docs/                   methods notes (de-circularization notes, verification report)
 ```
 
-## Design principles
-
-- **Bound per gene, never pool.** Error rates are gene-specific; the
-  leave-one-gene-out test (`validation/bound_holds.py`) is the negative control
-  that shows pooling breaks the guarantee.
-- **The call uses the assay only.** The three-class call comes from the survival
-  score and the investigators' published thresholds; clinical labels enter only
-  downstream (control selection, strength calibration), so no variant grades
-  itself.
-- **Abstain rather than over-claim.** A class earns a code only if its bounded
-  error rate clears an OddsPath rung; otherwise the method returns *uncertain*.
-- **One command, frozen inputs.** `run.py` regenerates every result of record
-  byte-for-byte — a software-integrity guarantee, kept separate from the
-  empirical validations in `validation/`.
