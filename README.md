@@ -4,8 +4,6 @@ Turn two-score saturation genome editing (SGE) screens into ACMG/AMP
 functional-evidence codes (PS3 / BS3) that carry a **mechanism label**
 (protein vs RNA) and a **finite-sample error bound**.
 
-The full narrative is in [`manuscript/MANUSCRIPT.md`](manuscript/MANUSCRIPT.md).
-This README is the map of the code.
 
 ## What it does, in one paragraph
 
