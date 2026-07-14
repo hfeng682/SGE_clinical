@@ -5,21 +5,7 @@ functional-evidence codes (PS3 / BS3) that carry a **mechanism label**
 (protein vs RNA) and a **finite-sample error bound**.
 
 
-## What it does, in one paragraph
-
-Each variant in an SGE screen comes with two scores: a survival/function score
-and an mRNA-abundance score. From the survival score the method makes a
-three-class call (normal / uncertain / loss-of-function) and puts a
-distribution-free error bound on how often that call is wrong, using clinical
-controls of the variant's own class, then maps the bounded rate onto the ACMG
-strength ladder via OddsPath. From the two scores together it reads a
-**mechanism route** — a loss acting through a broken protein (transfers to any
-tissue) or through disrupted RNA (tissue-variable) — and down-weights an
-RNA-route call by one ACMG tier unless it is corroborated in disease-relevant
-tissue. The output is one mechanism-labelled, transfer-adjusted evidence code
-per variant.
-
-## Run it
+## Please read the manuscript before running this repo.
 
 ```
 python run.py              # error bounds → strength → evidence codes  (stages 2–4)
