@@ -1,0 +1,43 @@
+{
+  "contrast": "naive 5%-FPR (shipped rna_drop5, k-th order statistic) vs error-bounded 5%-FPR (Wilks tolerance ceiling <=0.05, delta=0.05)",
+  "spliceai_needed": false,
+  "reason_no_spliceai": "bounded candidate set is a strict subset of naive; its SpliceVarDB overlap (25) is a subset of the already-scored 33; 0 new queries",
+  "naive": {
+    "n_candidates": 1614,
+    "n_overlap": 33,
+    "splice_altering": 16,
+    "low_frequency": 13,
+    "normal": 3,
+    "conflicting": 1,
+    "precision_conservative": 0.8421,
+    "precision_inclusive": 0.9062,
+    "n_confirmed_splice_altering": 16,
+    "n_scored_by_spliceai": 16,
+    "recovered_at_0.2": 1,
+    "recovered_at_0.5": 7,
+    "recovered_at_0.8": 14
+  },
+  "error_bounded": {
+    "n_candidates": 1304,
+    "n_overlap": 25,
+    "splice_altering": 16,
+    "low_frequency": 7,
+    "normal": 2,
+    "conflicting": 0,
+    "precision_conservative": 0.8889,
+    "precision_inclusive": 0.92,
+    "n_confirmed_splice_altering": 16,
+    "n_scored_by_spliceai": 16,
+    "recovered_at_0.2": 1,
+    "recovered_at_0.5": 7,
+    "recovered_at_0.8": 14
+  },
+  "n_overlap_removed_by_bounding": 8,
+  "removed_composition": {
+    "low_frequency": 6,
+    "conflicting": 1,
+    "normal": 1,
+    "splice_altering": 0
+  },
+  "headline": "Error-bounding raises conservative precision 0.842->0.889 and inclusive 0.906->0.920 while recovery is unchanged (1/7/14 of 16 at 0.2/0.5/0.8) - the finite-sample guarantee costs no sensitivity."
+}

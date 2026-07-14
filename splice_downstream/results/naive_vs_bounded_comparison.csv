@@ -1,0 +1,3 @@
+arm,n_candidates,n_overlap,splice_altering,low_frequency,normal,conflicting,precision_conservative,precision_inclusive,n_confirmed_splice_altering,n_scored_by_spliceai,recovered_at_0.2,recovered_at_0.5,recovered_at_0.8
+naive_5pct,1614,33,16,13,3,1,0.8421,0.9062,16,16,1,7,14
+error_bounded_5pct,1304,25,16,7,2,0,0.8889,0.92,16,16,1,7,14

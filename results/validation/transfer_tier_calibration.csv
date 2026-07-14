@@ -1,0 +1,2 @@
+gene,invariant_reproduction,variable_reproduction,odds_ratio,one_tier_odds,tier_gap,tier_gap_lo,tier_gap_hi,verdict
+BRCA1,0.87,0.667,3.33,2.05,1.68,-0.13,3.74,calibrated (95% CI contains 1 tier)

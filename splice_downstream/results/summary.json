@@ -1,0 +1,30 @@
+{
+  "n_candidates": 1614,
+  "n_svdb_5genes_independent": 551,
+  "n_overlap": 33,
+  "independence_entries_dropped": 0,
+  "overlap_by_classification": {
+    "Splice-altering": 16,
+    "Low-frequency": 13,
+    "Normal": 3,
+    "Conflicting": 1
+  },
+  "precision_pooled": {
+    "splice_altering": 16,
+    "low_frequency": 13,
+    "normal": 3,
+    "precision_conservative": 0.8421,
+    "precision_inclusive": 0.9062
+  },
+  "recovery": {
+    "n_confirmed_splice_altering": 16,
+    "n_scored_by_spliceai": 16,
+    "n_recovered_at_0.2": 1,
+    "recovered_variant_keys": [
+      "chr17-43047676-G-C"
+    ],
+    "by_gene": {
+      "BRCA1": 1
+    }
+  }
+}

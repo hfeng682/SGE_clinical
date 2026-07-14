@@ -1,0 +1,9 @@
+gene,key,hgvs,classification,ds_max
+BRCA1,chr17-43063881-G-T,NM_007294.4:c.5145C>A,Conflicting,0.04
+BRCA1,chr17-43047678-T-C,NM_007294.4:c.5432A>G,Low-frequency,0.03
+BRCA1,chr17-43051098-A-C,NM_007294.4:c.5297T>G,Low-frequency,0.0
+BRCA1,chr17-43104883-C-T,NM_007294.4:c.286G>A,Low-frequency,0.14
+BRCA1,chr17-43106529-A-C,NM_007294.4:c.139T>G,Low-frequency,0.06
+BRCA1,chr17-43115744-C-T,NM_007294.4:c.116G>A,Low-frequency,0.02
+BRCA1,chr17-43115750-G-C,NM_007294.4:c.110C>G,Low-frequency,0.01
+BRCA1,chr17-43104883-C-G,NM_007294.4:c.286G>C,Normal,0.06

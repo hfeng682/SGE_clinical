@@ -1,0 +1,35 @@
+{
+  "frozen_definitions": {
+    "ground_truth": "rna_measured==True (measurable exonic); intronic variants are tissue-bridge targets, disjoint",
+    "n_measurable": 22429,
+    "n_events": 2521,
+    "event": "rna_drop5",
+    "ag_splice_predictor": "max(splice_sites,splice_usage,splice_junctions)_maxabs",
+    "ag_expression_predictor": "expr_lfc_maxabs",
+    "auroc": "Mann-Whitney rank statistic",
+    "auprc": "trapezoidal PR",
+    "ci": "percentile bootstrap 2000x seed 0, 95%",
+    "power_filter": "skip n<20 or events<5",
+    "reliable_rule": "best splice AUROC CI-lower > 0.7"
+  },
+  "overall_auroc": {
+    "ag_splice_mag": 0.627462517584857,
+    "splice_sites_maxabs": 0.6239306223144513,
+    "splice_usage_maxabs": 0.6281228936726554,
+    "splice_junctions_maxabs": 0.627248263471708,
+    "expr_lfc_maxabs": 0.5947953505602168
+  },
+  "operating_thresholds": {
+    "90spec": 0.8414550781249996,
+    "95spec": 1.2789550781249979
+  },
+  "overall_sensitivity": {
+    "90spec": 0.3018643395477985,
+    "95spec": 0.22808409361364537
+  },
+  "reliable_strata": [
+    "dist_bin:exonic_splice_region(\u22643)",
+    "gene:RAD51D"
+  ],
+  "n_strata_evaluated": 19
+}

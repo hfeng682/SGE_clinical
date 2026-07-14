@@ -1,0 +1,18 @@
+{
+  "provenance": {
+    "ag_tissue_tracks": 54,
+    "gtex_v8_tissue_sites": 54,
+    "exact_matches": 54,
+    "ag_only": [],
+    "gtex_only": [],
+    "conclusion": "AG tissue-resolved expression uses the GTEx v8 tissue panel verbatim; it is GTEx-derived by construction (AG training corpus includes GTEx RNA-seq)."
+  },
+  "variant_collision": {
+    "total_sge_positions": 10252,
+    "colliding": 12,
+    "pct": 0.117,
+    "conclusion": "SGE variants (engineered, mostly rare) rarely coincide with common GTEx eQTL variants; per-variant AG and eQTL evidence rarely touch the same variant."
+  },
+  "independence_verdict": "AG tissue evidence is NOT independent of GTEx: it is trained on GTEx and reports in GTEx tissue vocabulary. Do NOT treat AG tissue-transfer evidence as independent corroboration of a GTEx eQTL/sQTL for the same gene/tissue.",
+  "double_counting_rule_for_step5": "When a variant carries GTEx eQTL/sQTL evidence in a disease tissue, AG tissue-resolved EXPRESSION evidence in that same tissue adds NO independent weight (shared GTEx provenance) \u2014 do not sum. AG SPLICE evidence (trained on GENCODE/splice references) is less GTEx-entangled and may add orthogonal information, but should be capped, not summed, with sQTL evidence."
+}

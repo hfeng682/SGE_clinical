@@ -1,0 +1,4 @@
+spliceai_threshold,n_confirmed_splice_altering,n_scored_by_spliceai,n_spliceai_negative,recovery_fraction
+0.2 (high recall),16,16,1,0.0625
+0.5 (recommended),16,16,7,0.4375
+0.8 (high precision),16,16,14,0.875

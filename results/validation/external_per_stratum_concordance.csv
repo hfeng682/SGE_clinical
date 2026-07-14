@@ -1,0 +1,16 @@
+gene,stratum,n_P,n_B,path_to_LoF,benign_to_Normal
+RAD51C,3UTR,0,1,-,1/1
+RAD51C,5UTR,0,1,-,1/1
+RAD51C,inframe/indel,18,0,18/18,-
+RAD51C,intronic,0,41,-,39/41
+RAD51C,missense,8,3,8/8,3/3
+RAD51C,nonsense,42,0,42/42,-
+RAD51C,splice_region,41,52,41/41,51/52
+RAD51C,synonymous,0,233,-,230/233
+DDX3X,inframe/indel,7,0,6/7,-
+DDX3X,intronic,0,4,-,4/4
+DDX3X,missense,25,2,15/25,2/2
+DDX3X,nonsense,22,0,22/22,-
+DDX3X,splice_region,7,8,6/7,8/8
+DDX3X,start/stop_lost,1,0,1/1,-
+DDX3X,synonymous,1,14,0/1,14/14

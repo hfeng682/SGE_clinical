@@ -1,0 +1,52 @@
+{
+  "n_apply": 32406,
+  "route_counts": {
+    "benign": 25886,
+    "protein": 3124,
+    "uncertain": 1938,
+    "rna_logic": 964,
+    "dual": 421,
+    "rna_measured": 53,
+    "rna_nodrop": 12,
+    "utr": 8
+  },
+  "final_code_counts": {
+    "BS3_Strong": 17353,
+    "BS3_Moderate": 8465,
+    "PS3_Strong": 2774,
+    "uncertain": 2273,
+    "PS3_Moderate": 475,
+    "PVS1_RNA_Moderate": 448,
+    "PVS1_RNA_Supporting": 356,
+    "PS3_Supporting": 262
+  },
+  "strength_source_counts": {
+    "gene_oddspath": 17660,
+    "gene_oddspath_benign": 8053,
+    "class_oddspath": 4569,
+    "guaranteed_uncertain": 1938,
+    "abstain_protein_blind_no_class_pathogenic_control": 118,
+    "class_abstained:bound_below_supporting": 68
+  },
+  "corroboration_source_counts": {
+    "none": 715,
+    "ag_splice_gated(disease_concordant)": 653,
+    "cross_condition(score_rna_rep1+score_rna_rep2)": 70,
+    "cross_condition(rna_score_d6)": 20
+  },
+  "n_mechanism_changed": 611,
+  "mechanism_changed_by_route": {
+    "dual": 345,
+    "rna_logic": 266
+  },
+  "mechanism_changed_by_gene": {
+    "PALB2": 207,
+    "BARD1": 172,
+    "RAD51D": 146,
+    "BRCA1": 64,
+    "VHL": 22
+  },
+  "cohort501_apply": 420,
+  "cohort501_downgraded": 344,
+  "cohort501_corroborated": 76
+}

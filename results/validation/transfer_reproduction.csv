@@ -1,0 +1,4 @@
+gene,mechanism_class,n,reproduces,reproduction_rate,cp_lo,cp_hi,note
+BRCA1,tissue-invariant (nonsense/NMD),46,40,0.87,0.737,0.951,
+BRCA1,tissue-variable (RNA route),105,70,0.667,0.568,0.756,
+VHL,tissue-variable (RNA route),26,20,0.769,0.564,0.91,"second-gene corroboration (timepoints); invariant arm n=9, cannot calibrate"

@@ -1,0 +1,7 @@
+gene,stratum,code_earned,apply_total,graded_VUS,as_LoF_PS3,as_Normal_BS3
+BARD1,splice_region,BS3+PS3,824,804,243,561
+BRCA1,missense,BS3+PS3,1916,1749,290,1459
+BRCA1,splice_region,BS3+PS3,527,479,122,357
+PALB2,splice_region,BS3+PS3,838,761,287,474
+RAD51D,splice_region,BS3+PS3,761,743,234,509
+VHL,splice_region,PS3,110,33,33,0

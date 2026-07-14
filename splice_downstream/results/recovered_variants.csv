@@ -1,0 +1,2 @@
+gene,key,hgvs,coarse_consequence,dist_bin,location,method,doi,ds_max,rna_score,call
+BRCA1,chr17-43047676-G-C,NM_007294.4:c.5434C>G,missense_variant,exonic_core(>3),Exonic,"MaPSy,Minigene Assay,RT-PCR","10.1002/humu.22388,10.1038/ng.3837,10.1038/ng.3837",0.18,,LoF

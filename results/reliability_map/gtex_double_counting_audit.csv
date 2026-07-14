@@ -1,0 +1,6 @@
+gene,n_sge_positions,gtex_eqtl_positions,sge_eqtl_collision,pct_sge_are_eqtl,ag_tissue_tracks_are_gtex
+BARD1,3045,915,10,0.328,54/54 exact
+BRCA1,1326,623,0,0.0,54/54 exact
+PALB2,3565,157,1,0.028,54/54 exact
+RAD51D,1503,144,1,0.067,54/54 exact
+VHL,813,597,0,0.0,54/54 exact

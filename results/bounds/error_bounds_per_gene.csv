@@ -1,0 +1,11 @@
+level,gene,route_class,direction,n,k,point,n_clusters,cp_ceiling,abstain,abstain_reason
+L1_rollup_per_gene,BARD1,synonymous,false_LoF,1347,12,0.008908685968819599,754,0.017934622577852877,False,
+L1_rollup_per_gene,BRCA1,synonymous,false_LoF,579,11,0.018998272884283247,327,0.0358923603145832,False,
+L1_rollup_per_gene,PALB2,synonymous,false_LoF,1919,29,0.015112037519541427,1059,0.022104356186261498,False,
+L1_rollup_per_gene,RAD51D,synonymous,false_LoF,679,28,0.041237113402061855,323,0.06569984928000973,False,
+L1_rollup_per_gene,VHL,synonymous,false_LoF,387,14,0.03617571059431524,204,0.05827329376371906,False,
+L1_rollup_per_gene,BARD1,nonsense,false_Normal,368,3,0.008152173913043478,326,0.023611312747602534,False,
+L1_rollup_per_gene,BRCA1,nonsense,false_Normal,138,0,0.0,124,0.02386963543559245,False,
+L1_rollup_per_gene,PALB2,nonsense,false_Normal,479,5,0.010438413361169102,420,0.021660651885055907,False,
+L1_rollup_per_gene,RAD51D,nonsense,false_Normal,95,11,0.11578947368421053,89,0.16982755154743956,False,
+L1_rollup_per_gene,VHL,nonsense,false_Normal,60,15,0.25,54,0.3950351844155977,False,

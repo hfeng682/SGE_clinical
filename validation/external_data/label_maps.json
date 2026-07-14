@@ -1,0 +1,19 @@
+{
+  "RAD51C": {
+    "source": "urn:mavedb:00000673-0-1 functional_classification (Olvera-Le\u00f3n et al., Cell 2024)",
+    "map": {
+      "fast depleted": "LoF",
+      "slow depleted": "LoF",
+      "unchanged": "Normal",
+      "enriched": "Normal"
+    }
+  },
+  "DDX3X": {
+    "source": "urn:mavedb:00000658-0-1 SGE_prediction \u00d7 Confidence (Radford et al., DDX3X SGE 'for clinical use')",
+    "map": {
+      "normal->Normal": true,
+      "abnormal+High_confidence->LoF": true,
+      "abnormal+Intermediate_confidence->Uncertain": true
+    }
+  }
+}

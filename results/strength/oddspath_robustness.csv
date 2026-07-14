@@ -1,0 +1,12 @@
+gene,route_class,direction,full_oddspath_lo,full_tier,full_nP,full_nB,fit_oddspath_lo,fit_tier,fit_nP,fit_nB,validate_oddspath_lo,validate_tier,validate_nP,validate_nB
+BARD1,splice_region,BS3,8.072098370457551,Moderate,43,60,5.2042143190634835,Moderate,23,29,4.257081933103217,Supporting,20,31
+BARD1,splice_region,PS3,13.3920401780378,Moderate,43,60,6.736816898654645,Moderate,23,29,6.433228745689051,Moderate,20,31
+BRCA1,missense,BS3,13.981162335439873,Moderate,142,19,,uncertain,62,8,7.200531819674795,Moderate,80,11
+BRCA1,missense,PS3,3.5604872636713183,Supporting,142,19,,uncertain,62,8,2.2250299520531778,Supporting,80,11
+BRCA1,splice_region,BS3,10.174921022470947,Moderate,120,63,7.293555431936867,Moderate,70,37,8.85903639681795,Moderate,50,26
+BRCA1,splice_region,PS3,11.26764646657779,Moderate,120,63,7.539723541334912,Moderate,70,37,5.92894468452338,Moderate,50,26
+PALB2,splice_region,BS3,6.053012380589008,Moderate,61,47,5.245615514133633,Moderate,33,25,2.2566874204521095,Supporting,28,22
+PALB2,splice_region,PS3,4.18757714956766,Supporting,61,47,3.8226240880337525,Supporting,33,25,2.402891112797128,Supporting,28,22
+RAD51D,splice_region,BS3,4.781835240273487,Moderate,20,65,3.3121819426986003,Supporting,13,30,,uncertain,7,35
+RAD51D,splice_region,PS3,10.606312416894344,Moderate,20,65,5.9573448965942415,Moderate,13,30,,uncertain,7,35
+VHL,splice_region,PS3,2.2308219054509095,Supporting,11,18,,uncertain,4,7,,uncertain,7,11

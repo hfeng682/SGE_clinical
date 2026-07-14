@@ -1,0 +1,7 @@
+gene,n_benign,benign_to_Normal,n_path,path_to_LoF
+BARD1,302,0.997,61,1.0
+BRCA1,139,0.921,181,0.967
+PALB2,323,0.87,125,1.0
+RAD51D,144,0.986,21,0.952
+VHL,99,0.949,71,0.873
+(pooled),1007,0.939,459,0.965
