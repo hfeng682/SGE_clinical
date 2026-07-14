@@ -6,7 +6,7 @@ We built a statistical model using Claude Science that turns saturation genome e
 Please find the details of this project inside the manuscript-style report located in this repo: **Manuscript-Pseudo.pdf**. 
 
 
-
+## Reproducing the manuscript
 ```
 python run.py              # error bounds → strength → evidence codes  (stages 2–4)
 python run.py --all        # also rebuild the clinical controls from ClinVar/gnomAD (stage 1)
@@ -17,7 +17,7 @@ The single output of record is
 `results/evidence_codes/evidence_codes.csv` — one code per held-out variant.
 Every table and figure in the manuscript regenerates from `results/`.
 
-## Repository layout (organized by function)
+## Repository layout
 
 ```
 run.py                  single entry point; chains the stages below
